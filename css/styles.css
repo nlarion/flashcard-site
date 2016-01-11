@@ -5,3 +5,25 @@
 .definition {
   display: none;
 }
+
+.jumbotron {
+  text-align: center;
+  padding: 40px 0;
+  background-size: cover;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAADCAYAAABfwxXFAAAAYklEQVQIWwFXAKj/AUc8X//7AvcANzUjAExZPwD4+vIAyKzCALTBxwABSztg//sI9wBTVkMA/ffyAN7H0QD18vUAAzYiAAFHPV///QLyAFdTSgDNxcMAGBAPAOzq7gACMxUAgVokYdOM4+cAAAAASUVORK5CYII=");
+}
+
+.jumbotron h1, .jumbotron h4 {
+  color: white;
+  text-shadow: 3px 8px 8px black;
+}
+
+.title:hover {
+  cursor: pointer;
+  color: lightblue;
+}
+
+.code {
+  background-color: lightgray;
+  padding: 2px 0;
+}
